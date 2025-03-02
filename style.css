@@ -1,0 +1,98 @@
+/* general style */
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* header */
+header{
+    background-color: #ff5733;
+    text-align: center;
+    padding: 20px;
+}
+
+/* navigation */
+
+nav{
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* sections */
+section{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* form */
+
+form{
+    margin-top: 10px;
+}
+input,select,textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ff5733;
+    border-radius: 5px;
+}
+button{
+    background-color: #ff5733;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ff8c66;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+
+table,th,td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #ff5733;
+    color: white;
+}
+
+/* contact */
+iframe{
+    display: block;
+    margin: 10px auto;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
